@@ -9,5 +9,31 @@
     "navigationBarBackgroundColor": "#009966",
     "navigationBarTitleText": "Wechat test",
     "navigationBarTextStyle":"white"
-  }
+  },
+"tabBar":{
+      "color": "#a9b7b7",
+     "selectedColor": "#11cd6e",
+     "borderStyle": "black",
+      "list": [
+    {
+            
+            "color":"#a9b7b7",
+            "selectedColor":"#11cd6e",
+            "backgroundColor":"green",
+            "pagePath": "pages/index/index",
+            "text": "首页"  
+
+    },
+    {
+
+            "color": "#a9b7b7",
+            "selectedColor": "#11cd6e",
+            "backgroundColor": "green",
+            "pagePath": "pages/logs/logs",
+            "text": "一元投"  
+
+    }
+  ]  
+
+}
 }
