@@ -6,8 +6,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#009966",
-    "navigationBarTitleText": "Wechat test",
+    "navigationBarBackgroundColor": "e89fbc",
+    "navigationBarTitleText": "帮帮小程序",
     "navigationBarTextStyle":"white"
   },
 "tabBar":{
@@ -16,24 +16,32 @@
      "borderStyle": "black",
       "list": [
     {
-            
+            "iconPath": "pictures/home.png",
+            "selectedIconPath": "pictures/Shome.png",
             "color":"#a9b7b7",
-            "selectedColor":"#11cd6e",
-            "backgroundColor":"green",
+            "selectedColor":"#11cd6e",           
             "pagePath": "pages/index/index",
             "text": "首页"  
 
+    },   
+    {
+      "iconPath": "pictures/find.png",
+      "selectedIconPath": "pictures/Sfind.png",
+      "color": "#a9b7b7",
+      "selectedColor": "#11cd6e",
+      "pagePath": "pages/demo/demo",
+      "text": "发现"
     },
     {
-
+            "iconPath": "pictures/me.png",
+            "selectedIconPath": "pictures/me.png",
             "color": "#a9b7b7",
             "selectedColor": "#11cd6e",
             "backgroundColor": "green",
             "pagePath": "pages/logs/logs",
-            "text": "一元投"  
+            "text": "我"  
 
     }
   ]  
-
 }
 }
